@@ -22,7 +22,7 @@ def hello_world():
         "author": "Mike",
         "text": "My first blog post!",
         "tags": ["mongodb", "python", "pymongo"],
-        "date": datetime.now(tz=datetime.timezone.utc),
+        "date": datetime.now(),
     }
     post_id = posts.insert_one(post).inserted_id
 
