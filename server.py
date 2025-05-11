@@ -15,7 +15,6 @@ def hello_world():
     db = client.test
     print("db", db)
     print("db.name", db.name)
-    print("db.collection_names()", db.collection_names())
     posts = db.posts
     print("posts", posts)
 
